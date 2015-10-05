@@ -1,11 +1,37 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
+
+<head>
+	<title>
+		<%= title %>
+	</title>
+
+	<!--add bootstrap css-->
+	<link rel='stylesheet' href='/node_modules/bootstrap/dist/css/bootstrap.css' />
+
+	<!-- adding jquery and bootstrap here -->
+	<script src="/node_modules/jquery/dist/jquery.js"></script>
+	<script src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+	<!-- angular from local here -->
+    <script src="/node_modules/angular/angular.js"></script>
+	
+	<!--add custom styles -->
+	<link rel='stylesheet' href='/css/style.css' />
+</head>
+
+<body>
+	<h1><%= title %></h1>
+	<p>Welcome to
+		<%= title %>
+	</p>
+
+	<p>Build your HTML here...</p>
+
+
+	<!-- good practice is your scripts down here -->
+	<script src="/js/app.js"></script>
+
+</body>
+
 </html>
