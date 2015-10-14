@@ -2,6 +2,7 @@
 
 
 //https://www.npmjs.com/package/gulp-express
+//http://stackoverflow.com/questions/31022819/using-connect-livereload-in-an-express-node-app
 
 var gulp = require('gulp');
 var webserver = require('gulp-webserver');
